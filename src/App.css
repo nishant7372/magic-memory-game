@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 49vw;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: min(6px, 1vw);
+  row-gap: min(6px, 1vw);
+}
+
+@media only screen and (max-width: 600px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+button {
+  padding: 1.5vh 1.5vw;
+  margin: 30px;
+  color: white;
+  background-color: #1b1537;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: medium;
+  font-weight: bold;
+  font-size: max(1.5vw, 16px);
+}
+
+button:hover {
+  background-color: #5a0457;
+}
+
+h1,
+h3 {
+  margin: 20px auto 10px auto;
+  color: white;
+}
+
+h1 {
+  margin-top: max(max(5vw, 5vh), 5px);
+  font-size: max(2.5vw, 28px);
+}
+
+h3 {
+  font-size: max(1.5vw, 16px);
+}
+
+.scoreCard {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50vw;
+  gap: min(40px, 5vw);
+}
