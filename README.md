@@ -4,9 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 <p display="flex">
-  <img src="https://user-images.githubusercontent.com/91368799/188254543-8ea993d8-f958-4ff7-8698-7033971cabfb.png" width="45%"/>
+  <img src="https://user-images.githubusercontent.com/91368799/188256642-7b7c45c9-92c0-48e4-9c48-dc13c8b7548b.png" width="45%"/>
   <img src="https://user-images.githubusercontent.com/91368799/188254532-b4a3654a-2529-4664-820e-6806c309862f.png" width="45%"/> 
 </p>
+
 
 ## Available Scripts
 
